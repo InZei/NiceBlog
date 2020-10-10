@@ -3,16 +3,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.3.4.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <groupId>niceblog</groupId>
+        <artifactId>niceblog</artifactId>
+        <version>1.0-SNAPSHOT</version>
     </parent>
-    <groupId>com.cloud</groupId>
+
+    <groupId>eureka</groupId>
     <artifactId>eureka</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>eureka</name>
     <description>Demo project for Spring Boot</description>
+    <packaging>pom</packaging>
 
     <properties>
         <java.version>11</java.version>
